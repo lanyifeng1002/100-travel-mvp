@@ -1,8 +1,8 @@
 {
-  "name": "atlas-journeys",
+  "name": "amazing-100-journeys",
   "version": "0.0.0",
   "private": true,
-  "description": "Curated destination guide built with Vue, Express, and SQLite",
+  "description": "Curated destination guide and content studio built with Vue, Express, and SQLite",
   "type": "module",
   "scripts": {
     "dev": "concurrently -k \"npm:dev:server\" \"npm:dev:client\"",

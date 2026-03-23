@@ -1,6 +1,6 @@
-# Atlas Journeys
+# Amazing 100 Journeys
 
-Atlas Journeys 是一个轻量级的旅行目的地展示与管理项目，面向“发现目的地灵感、浏览详情、快速比较、持续录入内容”这一类典型场景。
+Amazing 100 Journeys 是一个轻量级的旅行目的地展示与管理项目，面向“发现目的地灵感、浏览详情、快速比较、持续维护内容”这一类典型场景。
 
 项目当前已经完成：
 
@@ -77,18 +77,18 @@ npm run start
 - `server/db`：数据库初始化与连接
 - `server/repositories`：查询与写入逻辑
 - `tests`：自动化测试
-- `docs`：提交所需文档
+- `docs`：项目文档
 
-## 提交文档入口
+## 文档目录
 
-以下提交材料已经整理到 `docs` 目录：
+以下说明文档已经整理到 `docs` 目录：
 
-- `docs/00-交付清单.md`
-- `docs/01-需求文档.md`
-- `docs/02-API文档.md`
-- `docs/03-Prompt记录.md`
-- `docs/04-开发过程与工作流说明.md`
-- `docs/05-项目修改指南.md`
+- `docs/00-项目概览.md`
+- `docs/01-产品需求.md`
+- `docs/02-接口说明.md`
+- `docs/03-AI协作记录.md`
+- `docs/04-开发说明.md`
+- `docs/05-维护指南.md`
 
 ## 后续可扩展方向
 

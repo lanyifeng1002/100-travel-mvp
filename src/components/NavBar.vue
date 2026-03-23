@@ -44,8 +44,8 @@ const props = defineProps({
   }
 })
 
-const brand = computed(() => props.brandText || 'ATLAS JOURNEYS')
-const title = computed(() => props.titleText || '目的地图鉴')
+const brand = computed(() => props.brandText || 'AMAZING 100 JOURNEYS')
+const title = computed(() => props.titleText || 'Amazing 100 Journeys')
 
 const subtitle = computed(() => {
   if (props.subtitleText) {

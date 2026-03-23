@@ -2,7 +2,7 @@
 
 ## 目标
 
-这份作业现在已经具备最小完整部署条件：
+Amazing 100 Journeys 当前已经具备最小完整部署条件：
 
 - 前端由 Vite 构建到 `dist`
 - 后端由 Express 提供 API 和静态文件托管
@@ -18,20 +18,20 @@
 3. Express 同时托管 `dist` 和 `/api`
 4. 将 `server/db` 挂到持久化存储，避免重启后丢失录入数据
 
-这适合课程作业、演示系统和轻量内容项目。
+这适合轻量内容平台、内部演示环境和独立部署的小型应用。
 
 ## 本地容器验证
 
 构建镜像：
 
 ```bash
-docker build -t travel-mvp-final .
+docker build -t amazing-100-journeys .
 ```
 
 启动容器：
 
 ```bash
-docker run -p 3000:3000 -v travel_mvp_data:/app/server/db travel-mvp-final
+docker run -p 3000:3000 -v amazing_100_journeys_data:/app/server/db amazing-100-journeys
 ```
 
 启动后访问：
